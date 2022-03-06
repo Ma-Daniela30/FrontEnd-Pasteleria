@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../resources/images/logo_pasteleria2_0.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>La bonne pastelier- Galeria</title>
+</head>
+<body>
+  <header>
+    <div class="brand-logo">
+      <a href="../index.html"><img src="../resources/images/logo_pasteleria2_0.png" alt="Brand Logo"></a>
+  </div>
+
+  <input type="checkbox" id="toggle-btn">
+  <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"></i></label>
+
+  <nav>
+      <ul class="navigation">
+          <li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+          <li><a href="./quienes_somos.html"><i class="fas fa-user-friends"></i> ¿Quiénes somos?</a></li>
+          <li><a href="./productos.html"><i class="fas fa-utensils"></i> Productos</a></li>
+          <li><a href="./registrarse.html"><i class="fas fa-user"></i> Iniciar Sesión / Registrarse</a></li>
+          <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
+      </ul>
+  </nav>
+  </header>
+  <br><br><br>
+  <br>
+  <h1 class="titulo">Pedido</h1>
+  <div class="container">
+    <form action="">
+      <div class="form-group row">
+        <label for="staticEmail" class="col-md-4 col-sm-12 col-form-label alinear">Nombre: </label>
+        <div class="col-md-4 col-sm-12">
+          <input type="text" class="form-control" id="nombre">
+        </div>
+      </div>
+      <br>
+      <div class="form-group row">
+        <label for="ap" class="col-md-4 col-sm-12 col-form-label alinear">Apellido Paterno:</label>
+        <div class="col-md-4 col-sm-12">
+          <input type="text" class="form-control" id="ap">
+        </div>
+      </div>
+      <br>
+      <div class="form-group row">
+          <label for="am" class="col-md-4 col-sm-12 col-form-label alinear">Apellido Materno: </label>
+          <div class="col-md-4 col-sm-12">
+            <input type="text" class="form-control" id="am">
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="fechaNa" class="col-md-4 col-sm-12 col-form-label alinear">Telefono:</label>
+          <div class="col-md-4 col-sm-12">
+            <input type="tel" class="form-control" id="telefono">
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="correo" class="col-md-4 col-sm-12 col-form-label alinear">Descripcion del Pastel:</label>
+          <div class="col-md-4 col-sm-12">
+            <textarea name="descripcion" id="descripcion" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="relleno" class="col-md-4 col-sm-12 col-form-label alinear">Relleno del pastel: </label>
+          <div class="col-md-4 col-sm-12">
+            <select name="relleno" id="relleno" class="form-control">
+              <option value="">--Seleccione-</option>
+              <option value="1">Frutos secos</option>
+              <option value="2">Fruta de temporada o una especifica</option>
+              <option value="3">Chocolate</option>
+              <option value="4">mermelada</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="relleno" class="col-md-4 col-sm-12 col-form-label alinear"></label>
+          <div class="col-md-4 col-sm-12">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Nuez</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Almendra</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Abellanas</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Pistaches</label><br>
+                </div>
+                <div class="col">
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Nuez de laindia</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Piña desidratada</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Kiwi</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Manzana</label><br>
+                </div>
+                <div class="col">
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Pasas</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Mango</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Fresa</label><br>
+                  <label><input type="checkbox" id="cbox1" value="first_checkbox"> Pera</label><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="decorapastel" class="col-md-4 col-sm-12 col-form-label alinear">Decoracion del pastel:</label>
+          <div class="col-md-4 col-sm-12">
+            <select name="decorapastel" id="decorapastel" class="form-control">
+              <option value="">--Seleccione-</option>
+              <option value="1">Frutos de la temporada</option>
+              <option value="2">Chocolate</option>
+              <option value="3">crema batida</option>
+              <option value="4">galleta</option>
+              <option value="5">oblea comestible</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="saborpan" class="col-md-4 col-sm-12 col-form-label alinear">Sabor del pan del pastel:</label>
+          <div class="col-md-4 col-sm-12">
+            <select name="saborpan" id="saborpan" class="form-control">
+              <option value="">--Seleccione-</option>
+              <option value="1">Vainilla</option>
+              <option value="2">Limón</option>
+              <option value="3">Naranja</option>
+              <option value="4">Zanahoria</option>
+              <option value="5">bizcocho</option>
+              <option value="6">chocolate</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="saborpan" class="col-md-4 col-sm-12 col-form-label alinear">Merengue de decoracion del pastel:</label>
+          <div class="col-md-4 col-sm-12">
+            <select name="saborpan" id="saborpan" class="form-control">
+              <option value="">--Seleccione-</option>
+              <option value="1">Queso</option>
+              <option value="2">Vainilla</option>
+              <option value="3">Chocolate</option>
+              <option value="4">Sin sabor</option>
+              <option value="5">Nata</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <div class="col-md-7 col-sm-12 alinear">
+              <button type="button" class="btn estilo_btn">Hacer Pedido</button>
+          </div>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
