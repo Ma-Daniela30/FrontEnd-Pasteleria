@@ -4,6 +4,16 @@
   box-sizing: border-box;
   font-family: arial;
 }
+.image_redondeado{
+  border-radius: 15%;
+}
+.margint{
+  padding: 5% 8%;
+}
+
+.texto{
+  text-decoration:none;
+}
 .logo{
   border-radius: 55%;
   width: 25%;
